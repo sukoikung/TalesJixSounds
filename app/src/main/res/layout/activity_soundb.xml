@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.myprobeta1.SoundbActivity"
+    android:background="@drawable/table_background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_sound1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playSound"
+            android:text="rooster" />
+
+        <Button
+            android:id="@+id/button_sound2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playSound"
+            android:text="dundun" />
+
+        <Button
+            android:id="@+id/button_sound3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playSound"
+            android:text="drama" />
+
+        <Button
+            android:id="@+id/button_sound4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playSound"
+            android:text="minecraftdeath" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_sound5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playSound"
+            android:text="nope" />
+
+        <Button
+            android:id="@+id/button_sound6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playSound"
+            android:text="meaw" />
+
+        <Button
+            android:id="@+id/button_sound7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playSound"
+            android:text="cow" />
+
+        <Button
+            android:id="@+id/button_sound8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playSound"
+            android:text="crow" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_sound9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="playSound"
+        android:text="goat" />
+
+
+</LinearLayout>
